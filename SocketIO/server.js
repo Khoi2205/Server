@@ -37,7 +37,7 @@ const app = express();
 const server = http.createServer(app);
 const io = Server(server, {
   cors: {
-    origin: "http://192.168.1.24:3000",
+    origin: "https://server-1-fowz.onrender.com/",
     methods: ["GET", "POST"],
   },
 });
